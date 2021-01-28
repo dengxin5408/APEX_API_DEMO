@@ -1,0 +1,6 @@
+2021-01-15 15:24:14,544 - tools.report.log_tool - ERROR - Exception url: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+2021-01-15 15:24:14,546 - tools.report.log_tool - ERROR - Invalid return character or leading space in header: User-Agent
+2021-01-15 15:25:13,158 - tools.report.log_tool - ERROR - Exception url: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+2021-01-15 15:25:13,158 - tools.report.log_tool - ERROR - Invalid return character or leading space in header: User-Agent
+2021-01-15 15:26:43,556 - tools.report.log_tool - ERROR - Exception url: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+2021-01-15 15:26:43,556 - tools.report.log_tool - ERROR - HTTPSConnectionPool(host='apex-test-zhuoyue-mini-admin.chinapex.com.cn', port=443): Max retries exceeded with url: /dab/tenants/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1056)')))

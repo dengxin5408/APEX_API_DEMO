@@ -1,0 +1,18 @@
+2020-10-19 15:18:14,050 - tools.report.log_tool - INFO - ----请求用时: 176.519 秒数
+2020-10-19 15:18:14,053 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2020-10-19 15:18:14,054 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 19 Oct 2020 07:16:52 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}

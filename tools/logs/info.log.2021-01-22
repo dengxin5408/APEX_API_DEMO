@@ -1,0 +1,422 @@
+2021-01-21 11:31:37,729 - tools.report.log_tool - INFO - ----请求用时: 271.332 秒数
+2021-01-21 11:31:37,732 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-21 11:31:37,733 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 21 Jan 2021 03:31:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-21 11:37:16,926 - tools.report.log_tool - INFO - ----请求用时: 287.733 秒数
+2021-01-21 11:37:16,926 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-21 11:37:16,928 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 21 Jan 2021 03:37:12 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-21 11:39:22,610 - tools.report.log_tool - INFO - ----请求用时: 77.072 秒数
+2021-01-21 11:39:22,611 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-21 11:39:22,612 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 21 Jan 2021 03:39:18 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-21 17:18:55,395 - tools.report.log_tool - INFO - ----请求用时: 395.021 秒数
+2021-01-21 17:18:55,401 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 17:18:55,401 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 09:18:52 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-21 17:18:55,404 - tools.report.log_tool - INFO - ----请求用时: 403.003 秒数
+2021-01-21 17:18:55,404 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 17:18:55,404 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 09:18:52 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-21 17:18:55,410 - tools.report.log_tool - INFO - ----请求用时: 409.505 秒数
+2021-01-21 17:18:55,410 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 17:18:55,410 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 09:18:52 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-21 17:18:55,608 - tools.report.log_tool - INFO - ----请求用时: 33.357 秒数
+2021-01-21 17:18:55,608 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"phone": "13443586832", "pwd": "l5GcB8rV", "rePwd": "l5GcB8rV", "userName": "kangxin22"}'
+2021-01-21 17:18:55,608 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 09:18:52 GMT
+
+{"code":2000,"message":"注册成功；用户ID:101518","data":{"userName":"kangxin22","accoutId":20041,"cstId":20051,"userId":101518}}
+2021-01-21 18:01:54,914 - tools.report.log_tool - INFO - ----请求用时: 468.857 秒数
+2021-01-21 18:01:54,915 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 86
+
+b'{"phone": "13264092078", "pwd": "4dzLOZv2", "rePwd": "4dzLOZv2", "userName": "mogy44"}'
+2021-01-21 18:01:54,915 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 10:01:52 GMT
+
+{"code":2000,"message":"注册成功；用户ID:101519","data":{"userName":"mogy44","accoutId":20042,"cstId":20052,"userId":101519}}
+2021-01-21 20:53:18,469 - tools.report.log_tool - INFO - ----请求用时: 369.523 秒数
+2021-01-21 20:53:18,471 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 20:53:18,471 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 12:53:18 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-21 20:53:18,476 - tools.report.log_tool - INFO - ----请求用时: 376.456 秒数
+2021-01-21 20:53:18,476 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 20:53:18,476 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 12:53:18 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-21 20:53:18,487 - tools.report.log_tool - INFO - ----请求用时: 386.082 秒数
+2021-01-21 20:53:18,488 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 20:53:18,488 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 12:53:18 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-21 20:53:18,638 - tools.report.log_tool - INFO - ----请求用时: 34.905 秒数
+2021-01-21 20:53:18,638 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 88
+
+b'{"phone": "13164921597", "pwd": "qTXxzHE2", "rePwd": "qTXxzHE2", "userName": "chayan63"}'
+2021-01-21 20:53:18,639 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 12:53:18 GMT
+
+{"code":2000,"message":"注册成功；用户ID:101520","data":{"userName":"chayan63","accoutId":20043,"cstId":20053,"userId":101520}}
+2021-01-21 20:58:58,111 - tools.report.log_tool - INFO - ----请求用时: 126.027 秒数
+2021-01-21 20:58:58,111 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 20:58:58,111 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 20:58:58,111 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 12:58:58 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-21 20:58:58,111 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 12:58:58 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-21 20:58:58,119 - tools.report.log_tool - INFO - ----请求用时: 134.424 秒数
+2021-01-21 20:58:58,120 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 20:58:58,120 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 12:58:58 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-21 20:58:58,295 - tools.report.log_tool - INFO - ----请求用时: 31.632 秒数
+2021-01-21 20:58:58,296 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 87
+
+b'{"phone": "14779288107", "pwd": "Be4MdqAE", "rePwd": "Be4MdqAE", "userName": "yuefb32"}'
+2021-01-21 20:58:58,296 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 12:58:58 GMT
+
+{"code":2000,"message":"注册成功；用户ID:101521","data":{"userName":"yuefb32","accoutId":20044,"cstId":20054,"userId":101521}}
+2021-01-21 21:01:15,230 - tools.report.log_tool - INFO - ----请求用时: 123.762 秒数
+2021-01-21 21:01:15,230 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 21:01:15,230 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 13:01:15 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-21 21:01:15,233 - tools.report.log_tool - INFO - ----请求用时: 126.438 秒数
+2021-01-21 21:01:15,233 - tools.report.log_tool - INFO - ----请求用时: 126.464 秒数
+2021-01-21 21:01:15,233 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 21:01:15,233 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 13:01:15 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+ntent-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-21 21:01:15,233 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 13:01:15 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-21 21:01:15,405 - tools.report.log_tool - INFO - ----请求用时: 31.897 秒数
+2021-01-21 21:01:15,405 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"phone": "15658985642", "pwd": "0uBK7T9y", "rePwd": "0uBK7T9y", "userName": "yangyun60"}'
+2021-01-21 21:01:15,406 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 21 Jan 2021 13:01:15 GMT
+
+{"code":2000,"message":"注册成功；用户ID:101522","data":{"userName":"yangyun60","accoutId":20045,"cstId":20055,"userId":101522}}
+2021-01-22 17:27:27,473 - tools.report.log_tool - INFO - ----请求用时: 139.679 秒数
+2021-01-22 17:27:27,474 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-22 17:27:27,475 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 22 Jan 2021 09:27:24 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}

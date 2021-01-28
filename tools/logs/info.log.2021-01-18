@@ -1,0 +1,97 @@
+2021-01-18 18:51:11,406 - tools.report.log_tool - INFO - ----请求用时: 345.939 秒数
+2021-01-18 18:51:11,410 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko)Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Accept-Language: zh-CN,zh;q=0.9
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https://apex-test-zhuoyue- mini-admin.chinapex.com.cn/
+X-Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw
+Content-Length: 45
+Host: apex-test-zhuoyue-mini-admin.chinapex.com.cn
+
+b'{"password": "zhuoyue", "username": "123456"}'
+2021-01-18 18:51:11,411 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 18 Jan 2021 10:51:07 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"100024","msg":"账号或者密码错误","data":null}
+2021-01-18 18:51:50,658 - tools.report.log_tool - INFO - ----请求用时: 120.375 秒数
+2021-01-18 18:51:50,659 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko)Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Accept-Language: zh-CN,zh;q=0.9
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https://apex-test-zhuoyue- mini-admin.chinapex.com.cn/
+X-Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw
+Content-Length: 43
+Host: apex-test-zhuoyue-mini-admin.chinapex.com.cn
+
+b'{"password": "zhuoyue", "username": 123456}'
+2021-01-18 18:51:50,661 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 18 Jan 2021 10:51:47 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"100024","msg":"账号或者密码错误","data":null}
+2021-01-18 19:39:04,885 - tools.report.log_tool - INFO - ----请求用时: 442.952 秒数
+2021-01-18 19:39:04,885 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-18 19:39:04,886 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 18 Jan 2021 11:39:01 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}

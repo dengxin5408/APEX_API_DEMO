@@ -1,0 +1,120 @@
+2021-01-14 18:32:33,135 - tools.report.log_tool - INFO - ----请求用时: 154.495 秒数
+2021-01-14 18:32:33,136 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-14 18:32:33,136 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 14 Jan 2021 10:32:30 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-14 18:40:41,090 - tools.report.log_tool - INFO - ----请求用时: 108.197 秒数
+2021-01-14 18:40:41,091 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-14 18:40:41,091 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 14 Jan 2021 10:40:38 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-15 10:20:52,984 - tools.report.log_tool - INFO - ----请求用时: 527.485 秒数
+2021-01-15 10:20:52,988 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-15 10:20:52,988 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 15 Jan 2021 02:20:53 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-15 10:20:52,992 - tools.report.log_tool - INFO - ----请求用时: 535.694 秒数
+2021-01-15 10:20:52,993 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-15 10:20:52,993 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 15 Jan 2021 02:20:53 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-15 10:20:53,176 - tools.report.log_tool - INFO - ----请求用时: 719.234 秒数
+2021-01-15 10:20:53,176 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"pwd": "123456dx", "userName": "dxhd123456"}'
+2021-01-15 10:20:53,176 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 15 Jan 2021 02:20:53 GMT
+
+{"code":9999,"message":"登录失败,用户名不存在","data":""}
+2021-01-15 10:20:53,334 - tools.report.log_tool - INFO - ----请求用时: 39.599 秒数
+2021-01-15 10:20:53,334 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 88
+
+b'{"phone": "18863004795", "pwd": "6HqHDKT8", "rePwd": "6HqHDKT8", "userName": "longyi63"}'
+2021-01-15 10:20:53,334 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 15 Jan 2021 02:20:53 GMT
+
+{"code":2000,"message":"注册成功；用户ID:101516","data":{"userName":"longyi63","accoutId":20039,"cstId":20049,"userId":101516}}
+2021-01-15 10:20:54,699 - tools.report.log_tool - ERROR - Exception url: http://www.guoyasoft.com:8084/login
+2021-01-15 10:20:54,700 - tools.report.log_tool - ERROR - Exception url: http://www.guoyasoft.com:8084/login
+2021-01-15 10:20:55,205 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='www.guoyasoft.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000221704ADE80>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2021-01-15 10:20:55,205 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='www.guoyasoft.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002784DA9B9B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2021-01-15 10:21:01,969 - tools.report.log_tool - ERROR - Exception url: http://www.guoyasoft.com:8084/login
+2021-01-15 10:21:01,973 - tools.report.log_tool - ERROR - HTTPConnectionPool(host='www.guoyasoft.com', port=8084): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002784DC867F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2021-01-15 15:24:14,544 - tools.report.log_tool - ERROR - Exception url: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+2021-01-15 15:24:14,546 - tools.report.log_tool - ERROR - Invalid return character or leading space in header: User-Agent
+2021-01-15 15:25:13,158 - tools.report.log_tool - ERROR - Exception url: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+2021-01-15 15:25:13,158 - tools.report.log_tool - ERROR - Invalid return character or leading space in header: User-Agent
+2021-01-15 15:26:43,556 - tools.report.log_tool - ERROR - Exception url: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+2021-01-15 15:26:43,556 - tools.report.log_tool - ERROR - HTTPSConnectionPool(host='apex-test-zhuoyue-mini-admin.chinapex.com.cn', port=443): Max retries exceeded with url: /dab/tenants/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1056)')))
