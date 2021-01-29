@@ -6,9 +6,14 @@ if __name__ == '__main__':
 
     test_case = './test_case/test_user'
 
-    #
+    ''' 
     xml_report_path = './reports/xml/'
+    html_report_path = './reports/html/
+    '''
+    xml_report_path = './reports/reports_html/'
     html_report_path = './reports/html/'
+
+
     #
     pytest.main(['-s', '-q', '-n', '3','--alluredir',
                  xml_report_path, test_case])
