@@ -2,7 +2,7 @@ from tools.api import request_tool
 from tools.data import random_tool
 import json
 
-def test_xiugai_pwd(pub_dic):
+'''def test_xiugai_pwd(pub_dic):
 
 
     url='http://api.yansl.com:8084/user/changepwd'
@@ -17,4 +17,4 @@ def test_xiugai_pwd(pub_dic):
       "reNewPwd": pwd,
       "userName": "xx123456d"
     }
-    resp=request_tool.post_json(url,headers=headers,json=req)
+    resp=request_tool.post_json(url,headers=headers,json=req)'''

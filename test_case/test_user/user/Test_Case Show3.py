@@ -1,6 +1,8 @@
 from tools.api import request_tool
 import pytest
 
+
+'''
 id2=['正确数据',
      '用户名错误',
      '密码错误']
@@ -23,7 +25,7 @@ def test_login(name,pwd,assertion):
     print(code)
     data=resp_json['data']
     assert code == assertion
-
+'''
 
 
 

@@ -1,0 +1,1823 @@
+2021-01-25 10:05:50,912 - tools.report.log_tool - ERROR - Exception url: https://zjs.zytest.net/service/manage/api/zy/pageList
+2021-01-25 10:05:50,914 - tools.report.log_tool - ERROR - Value for header {x-token: <function test_Zjs_Public_token at 0x000001F197CF1620>} must be of type str or bytes, not <class 'function'>
+2021-01-25 10:07:27,893 - tools.report.log_tool - ERROR - Exception url: https://zjs.zytest.net/service/manage/api/zy/pageList
+2021-01-25 10:07:27,893 - tools.report.log_tool - ERROR - Value for header {x-token: <function test_Zjs_Public_token at 0x0000021DC05E1620>} must be of type str or bytes, not <class 'function'>
+2021-01-25 10:14:52,252 - tools.report.log_tool - INFO - ----请求用时: 372.967 秒数
+2021-01-25 10:14:52,253 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 10:14:52,254 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 02:14:47 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 10:31:45,464 - tools.report.log_tool - INFO - ----请求用时: 120.524 秒数
+2021-01-25 10:31:45,465 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"phone": "15796991404", "pwd": "AEoYf8Z5", "rePwd": "AEoYf8Z5", "userName": "queyuan36"}'
+2021-01-25 10:31:45,465 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 25 Jan 2021 02:31:42 GMT
+
+{"code":2000,"message":"注册成功；用户ID:101523","data":{"userName":"queyuan36","accoutId":20046,"cstId":20056,"userId":101523}}
+2021-01-25 10:53:54,035 - tools.report.log_tool - INFO - ----请求用时: 303.686 秒数
+2021-01-25 10:53:54,036 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 10:53:54,036 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 02:53:49 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 10:56:55,564 - tools.report.log_tool - INFO - ----请求用时: 171.759 秒数
+2021-01-25 10:56:55,564 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 10:56:55,564 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 02:56:50 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 10:57:41,782 - tools.report.log_tool - INFO - ----请求用时: 77.749 秒数
+2021-01-25 10:57:41,782 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 10:57:41,784 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 02:57:36 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 10:57:42,001 - tools.report.log_tool - INFO - ----请求用时: 211.186 秒数
+2021-01-25 10:57:42,001 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+x-token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 10:57:42,025 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 02:57:38 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Access-Control-Allow-Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn, *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 10:58:14,612 - tools.report.log_tool - INFO - ----请求用时: 92.845 秒数
+2021-01-25 10:58:14,613 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 10:58:14,616 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 02:58:09 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 10:58:14,776 - tools.report.log_tool - INFO - ----请求用时: 137.783 秒数
+2021-01-25 10:58:14,777 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+x-token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 10:58:14,789 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 02:58:11 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 11:00:07,415 - tools.report.log_tool - INFO - ----请求用时: 263.659 秒数
+2021-01-25 11:00:07,416 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 11:00:07,419 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 03:00:02 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 11:00:07,609 - tools.report.log_tool - INFO - ----请求用时: 178.266 秒数
+2021-01-25 11:00:07,609 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 11:00:07,616 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 03:00:04 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 11:01:31,594 - tools.report.log_tool - INFO - ----请求用时: 78.817 秒数
+2021-01-25 11:01:31,594 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 11:01:31,596 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 03:01:26 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 11:01:31,773 - tools.report.log_tool - INFO - ----请求用时: 170.726 秒数
+2021-01-25 11:01:31,774 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 11:01:31,787 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 03:01:28 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 11:16:56,140 - tools.report.log_tool - INFO - ----请求用时: 286.449 秒数
+2021-01-25 11:16:56,141 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 11:16:56,143 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 03:16:54 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 11:16:56,317 - tools.report.log_tool - INFO - ----请求用时: 171.023 秒数
+2021-01-25 11:16:56,317 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 11:16:56,320 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 03:16:56 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 11:17:29,056 - tools.report.log_tool - INFO - ----请求用时: 188.474 秒数
+2021-01-25 11:17:29,057 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 11:17:29,059 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 03:17:27 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 11:17:29,220 - tools.report.log_tool - INFO - ----请求用时: 157.091 秒数
+2021-01-25 11:17:29,221 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 11:17:29,229 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 03:17:29 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:31:38,047 - tools.report.log_tool - INFO - ----请求用时: 191.198 秒数
+2021-01-25 14:31:38,048 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:31:38,051 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:31:35 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:31:38,242 - tools.report.log_tool - INFO - ----请求用时: 178.594 秒数
+2021-01-25 14:31:38,242 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:31:38,258 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:31:38 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:33:00,202 - tools.report.log_tool - INFO - ----请求用时: 99.449 秒数
+2021-01-25 14:33:00,202 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:33:00,204 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:32:57 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:33:00,377 - tools.report.log_tool - INFO - ----请求用时: 169.074 秒数
+2021-01-25 14:33:00,378 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:33:00,380 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:33:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:40:50,550 - tools.report.log_tool - INFO - ----请求用时: 129.619 秒数
+2021-01-25 14:40:50,550 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:40:50,553 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:40:47 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:40:50,735 - tools.report.log_tool - INFO - ----请求用时: 180.826 秒数
+2021-01-25 14:40:50,735 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:40:50,735 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:40:50 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:42:14,293 - tools.report.log_tool - INFO - ----请求用时: 192.947 秒数
+2021-01-25 14:42:14,294 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:42:14,296 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:42:11 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:42:14,490 - tools.report.log_tool - INFO - ----请求用时: 184.358 秒数
+2021-01-25 14:42:14,490 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:42:14,505 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:42:14 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:43:24,348 - tools.report.log_tool - INFO - ----请求用时: 95.19 秒数
+2021-01-25 14:43:24,349 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:43:24,352 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:43:21 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:43:27,274 - tools.report.log_tool - INFO - ----请求用时: 862.654 秒数
+2021-01-25 14:43:27,274 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:43:27,277 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:43:27 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:44:13,355 - tools.report.log_tool - INFO - ----请求用时: 80.931 秒数
+2021-01-25 14:44:13,356 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:44:13,356 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:44:10 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:44:13,610 - tools.report.log_tool - INFO - ----请求用时: 248.248 秒数
+2021-01-25 14:44:13,611 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:44:13,624 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:44:13 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:45:32,698 - tools.report.log_tool - INFO - ----请求用时: 293.214 秒数
+2021-01-25 14:45:32,699 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:45:32,701 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:45:30 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:45:34,110 - tools.report.log_tool - INFO - ----请求用时: 402.184 秒数
+2021-01-25 14:45:34,111 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:45:34,125 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:45:34 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:46:09,310 - tools.report.log_tool - INFO - ----请求用时: 82.841 秒数
+2021-01-25 14:46:09,310 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:46:09,312 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:46:06 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:46:09,478 - tools.report.log_tool - INFO - ----请求用时: 162.756 秒数
+2021-01-25 14:46:09,479 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:46:09,483 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:46:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:46:44,601 - tools.report.log_tool - INFO - ----请求用时: 100.665 秒数
+2021-01-25 14:46:44,601 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:46:44,602 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:46:41 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:46:44,904 - tools.report.log_tool - INFO - ----请求用时: 297.344 秒数
+2021-01-25 14:46:44,905 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:46:44,913 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:46:44 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:47:29,442 - tools.report.log_tool - INFO - ----请求用时: 84.796 秒数
+2021-01-25 14:47:29,442 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:47:29,444 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:47:26 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:47:29,599 - tools.report.log_tool - INFO - ----请求用时: 151.88 秒数
+2021-01-25 14:47:29,599 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:47:29,604 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:47:29 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:48:45,452 - tools.report.log_tool - INFO - ----请求用时: 127.887 秒数
+2021-01-25 14:48:45,452 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:48:45,454 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:48:42 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:48:45,654 - tools.report.log_tool - INFO - ----请求用时: 194.098 秒数
+2021-01-25 14:48:45,655 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:48:45,667 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:48:45 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:50:58,713 - tools.report.log_tool - INFO - ----请求用时: 106.562 秒数
+2021-01-25 14:50:58,714 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:50:58,717 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:50:56 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:50:58,910 - tools.report.log_tool - INFO - ----请求用时: 190.373 秒数
+2021-01-25 14:50:58,910 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:50:58,913 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:50:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:52:54,902 - tools.report.log_tool - INFO - ----请求用时: 644.146 秒数
+2021-01-25 14:52:54,902 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:52:54,905 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:52:52 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:52:55,083 - tools.report.log_tool - INFO - ----请求用时: 168.511 秒数
+2021-01-25 14:52:55,083 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:52:55,097 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:52:55 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:57:23,380 - tools.report.log_tool - INFO - ----请求用时: 213.195 秒数
+2021-01-25 14:57:23,380 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:57:23,382 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:57:20 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:57:23,561 - tools.report.log_tool - INFO - ----请求用时: 176.084 秒数
+2021-01-25 14:57:23,562 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:57:23,565 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:57:23 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:58:13,599 - tools.report.log_tool - INFO - ----请求用时: 78.718 秒数
+2021-01-25 14:58:13,599 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:58:13,602 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:58:10 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:58:13,750 - tools.report.log_tool - INFO - ----请求用时: 145.632 秒数
+2021-01-25 14:58:13,750 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:58:13,753 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:58:13 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:58:53,620 - tools.report.log_tool - INFO - ----请求用时: 93.953 秒数
+2021-01-25 14:58:53,621 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:58:53,623 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:58:50 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:58:53,784 - tools.report.log_tool - INFO - ----请求用时: 157.651 秒数
+2021-01-25 14:58:53,785 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:58:53,788 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:58:53 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:59:36,617 - tools.report.log_tool - INFO - ----请求用时: 269.181 秒数
+2021-01-25 14:59:36,634 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:59:36,636 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:59:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:59:36,844 - tools.report.log_tool - INFO - ----请求用时: 193.766 秒数
+2021-01-25 14:59:36,845 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:59:36,858 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:59:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 14:59:57,270 - tools.report.log_tool - INFO - ----请求用时: 95.154 秒数
+2021-01-25 14:59:57,270 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 14:59:57,271 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 06:59:54 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 14:59:57,425 - tools.report.log_tool - INFO - ----请求用时: 150.812 秒数
+2021-01-25 14:59:57,425 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 14:59:57,428 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 06:59:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 15:02:13,893 - tools.report.log_tool - INFO - ----请求用时: 261.825 秒数
+2021-01-25 15:02:13,894 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 15:02:13,897 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 07:02:11 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 15:10:03,518 - tools.report.log_tool - INFO - ----请求用时: 280.453 秒数
+2021-01-25 15:10:03,519 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 15:10:03,520 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 07:10:00 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 15:10:03,710 - tools.report.log_tool - INFO - ----请求用时: 176.314 秒数
+2021-01-25 15:10:03,710 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 15:10:03,722 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 07:10:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 15:10:45,999 - tools.report.log_tool - INFO - ----请求用时: 78.717 秒数
+2021-01-25 15:10:45,999 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 15:10:46,001 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 07:10:43 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 15:10:46,169 - tools.report.log_tool - INFO - ----请求用时: 162.854 秒数
+2021-01-25 15:10:46,170 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 15:10:46,177 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 07:10:46 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 15:11:50,515 - tools.report.log_tool - INFO - ----请求用时: 93.753 秒数
+2021-01-25 15:11:50,519 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 15:11:50,521 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 07:11:47 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 15:11:50,654 - tools.report.log_tool - INFO - ----请求用时: 129.467 秒数
+2021-01-25 15:11:50,654 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 15:11:50,657 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 07:11:50 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 15:12:20,479 - tools.report.log_tool - INFO - ----请求用时: 82.048 秒数
+2021-01-25 15:12:20,483 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 15:12:20,485 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 07:12:17 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 15:12:20,646 - tools.report.log_tool - INFO - ----请求用时: 158.301 秒数
+2021-01-25 15:12:20,646 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 15:12:20,649 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 07:12:20 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-01-25 17:09:48,516 - tools.report.log_tool - INFO - ----请求用时: 163.626 秒数
+2021-01-25 17:09:48,517 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/signup
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 88
+
+b'{"phone": "15677387875", "pwd": "PD46823z", "rePwd": "PD46823z", "userName": "bobang41"}'
+2021-01-25 17:09:48,517 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 25 Jan 2021 09:09:48 GMT
+
+{"code":2000,"message":"注册成功；用户ID:101524","data":{"userName":"bobang41","accoutId":20047,"cstId":20057,"userId":101524}}
+2021-01-25 17:30:30,361 - tools.report.log_tool - INFO - ----请求用时: 3.812 秒数
+2021-01-25 17:30:30,362 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip,deflate,br
+Accept: application/json,text/plain,*/*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Origin: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn
+Referer: https: // apex - test - zhuoyue - mini - admin.chinapex.com.cn/
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-01-25 17:30:30,362 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 25 Jan 2021 09:30:27 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-01-25 17:30:30,528 - tools.report.log_tool - INFO - ----请求用时: 159.581 秒数
+2021-01-25 17:30:30,529 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-01-25 17:30:30,545 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 25 Jan 2021 09:30:30 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-01-22 10:22:42","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}

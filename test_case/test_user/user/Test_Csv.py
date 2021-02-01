@@ -3,7 +3,10 @@ import pytest
 
 
 
-id1 = ['正确数据',
+
+
+
+'''id1 = ['正确数据',
            '长度小于11位',
            '不存在此用户',
            '非法字母',
@@ -33,6 +36,4 @@ def test_chaxun(pub_dic,phone,assertion): # get请求query数据
     #取出rs中cood下标存入变量COOD
     data = rs['data']
     message = rs['message']
-    assert code == assertion or message == assertion# 根据实际接口返回的响应进行断言
-
-
+    assert code == assertion or message == assertion# 根据实际接口返回的响应进行断言'''

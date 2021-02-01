@@ -6,7 +6,7 @@ import requests
 
 
 
-def test_chaxun(pub_dic): # get请求query数据
+'''def test_chaxun(pub_dic): # get请求query数据
     headers = {
         'token': pub_dic
     }
@@ -84,7 +84,7 @@ def test_cz(pub_dic):
      req_json = r.json()
      code = req_json["code"]
      data = req_json["data"]
-     assert code == 2000
+     assert code == 2000'''
 
 
 

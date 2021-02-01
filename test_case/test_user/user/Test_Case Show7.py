@@ -2,6 +2,7 @@ import xlrd
 from xlutils.copy import copy
 import xlwt
 
+'''
 # 第一步  把原表格中的数据拷贝一份
 path = 'E:\\测试文件\\test.xls'
 book = xlrd.open_workbook(path)
@@ -28,5 +29,5 @@ ws.write(1, 2, '南瓜', style)
 ws.write(1, 3, '猫头鹰', style)
      # 单元格数据为空，背景为黄色
 # value会覆盖原单元格的数据，如果不想被覆盖了，需提前把原单元格的数据获取到再写入
-wb.save(path)
+wb.save(path)'''
 

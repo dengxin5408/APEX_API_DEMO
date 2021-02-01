@@ -5,7 +5,7 @@ from tools.os import os_tool
 from xlutils.copy import copy
 import xlwt
 
-def test_chaxun(pub_dic): # get请求query数据
+'''def test_chaxun(pub_dic): # get请求query数据
     headers = {
         'token': pub_dic
     }
@@ -71,4 +71,4 @@ def test_chaxun(pub_dic): # get请求query数据
         print("failed")
         # 反之执行里面的代码
     else:
-        print("pass")
+        print("pass")'''

@@ -5,7 +5,7 @@ import json
 import re
 
 
-def test_shiming(pub_dic):
+'''def test_shiming(pub_dic):
 
     url='http://www.guoyasoft.com:8084/cst/realname'
     headers = {
@@ -35,4 +35,4 @@ def test_shiming(pub_dic):
        "sex": sex
     }
     print(req)
-    resp=request_tool.post_json(url,headers=headers,json=req)
+    resp=request_tool.post_json(url,headers=headers,json=req)'''

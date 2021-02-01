@@ -23,8 +23,7 @@ import pytest
 
 
 ids=['html_path','xml_path']
-pathlist=['D:/dev/dev/test_api/reports/html/data/test-cases','D:/dev/dev/test_api/reports/xml']
-
+pathlist=['C:/softwoer/dev/API_test/reports/reports_html','C:/softwoer/dev/API_test/reports/xml']
 @pytest.mark.parametrize('ql_path',pathlist,ids=ids)
 def test_fileql2(ql_path):
  try:
