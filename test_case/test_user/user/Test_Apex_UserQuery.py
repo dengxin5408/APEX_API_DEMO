@@ -11,6 +11,7 @@ from tools.api import request_tool
 
 
 def test_post_json(public_token):
+
     data = conf.test_zjs_userquery_data #data是请求体
     hearders=  {'x-token':public_token   }#hearders是请求头,public_token是公共参数
     rq =  request_tool.post_json(url= conf.test_zjs_userquery_url,headers=hearders,json=data)#将POST请求作为JSON串发送

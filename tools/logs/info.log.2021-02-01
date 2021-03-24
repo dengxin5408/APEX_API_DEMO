@@ -1,0 +1,108 @@
+2021-02-01 16:05:33,127 - tools.report.log_tool - INFO - ----请求用时: 398.159 秒数
+2021-02-01 16:05:33,128 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-02-01 16:05:33,128 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 01 Feb 2021 08:05:30 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-02-01 16:05:33,292 - tools.report.log_tool - INFO - ----请求用时: 160.654 秒数
+2021-02-01 16:05:33,293 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+x-token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-02-01 16:05:33,296 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 01 Feb 2021 08:05:33 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-02-01 14:50:10","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}
+2021-02-01 17:40:09,204 - tools.report.log_tool - ERROR - Exception url: https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+2021-02-01 17:40:09,478 - tools.report.log_tool - ERROR - HTTPSConnectionPool(host='apex-test-zhuoyue-mini-admin.chinapex.com.cn', port=443): Max retries exceeded with url: /dab/tenants/login (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F5733D12B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2021-02-01 17:43:48,822 - tools.report.log_tool - INFO - ----请求用时: 450.534 秒数
+2021-02-01 17:43:48,823 - tools.report.log_tool - INFO - -------------------request-------------
+https://apex-test-zhuoyue-mini-admin.chinapex.com.cn/dab/tenants/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/json;;charset=UTF-8
+Content-Length: 45
+
+b'{"password": "123456", "username": "zhuoyue"}'
+2021-02-01 17:43:48,823 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 01 Feb 2021 09:43:45 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+
+{"code":"0","msg":"ok","data":{"privilegeCodes":["WORKER_DELETE","MALL_COUPON_CHECK","FISSIONPOSTER_VIEW","FISSIONPOSTER_EDIT","FISSIONPOSTER_CREATE","FISSIONPOSTER_DELETE","MEMBER_VIEW","MEMBER_EDIT","MEMBER_CREATE","MEMBER_DELETE","STATIC_TAG_GRPUP_VIEW","STATIC_TAG_GRPUP_EDIT","STATIC_TAG_GRPUP_CREATE","STATIC_TAG_GRPUP_DELETE","MEMBER_CONFIG_VIEW","MEMBER_CONFIG_EDIT","MEMBER_CONFIG_CREATE","MEMBER_CONFIG_DELETE","MALL_VIEW","MALL_EDIT","MALL_CREATE","MALL_DELETE","MALL_CHECKIN","MALL_ORDER","MALL_STOCK","TASK_VIEW","TASK_EDIT","TASK_CREATE","TASK_DELETE","POSTER_VIEW","POSTER_TASK_EDIT","POSTER_TASK_CREATE","POSTER_TASK_DELETE","ARTICLE_VIEW","ARTICLE_TASK_EDIT","ARTICLE_TASK_CREATE","ARTICLE_TASK_DELETE","EVENT_VIEW","EVENT_EDIT","EVENT_CREATE","EVENT_DELETE","EVENT_LAUNCH","EVENT_CHECKIN","EVENT_ORDER","SUPER_USER_VIEW","SUPER_USER_EDIT","SUPER_USER_CREATE","SUPER_USER_DELETE","ORGANIZATION_VIEW","ORGANIZATION_EDIT","ORGANIZATION_CREATE","ORGANIZATION_DELETE","ROLE_VIEW","ROLE_EDIT","ROLE_CREATE","ROLE_DELETE","ACCOUNT_VIEW","ACCOUNT_EDIT","ACCOUNT_CREATE","ACCOUNT_DELETE","CHANNEL_VIEW","CHANNEL_EDIT","CHANNEL_CREATE","CHANNEL_DELETE","EVENT_CATEGORY_VIEW","EVENT_CATEGORY_EDIT","EVENT_CATEGORY_CREATE","EVENT_CATEGORY_DELETE","WORKER_VIEW","WORKER_CREATE","WORKER_EDIT","GROUP_BUY_EVENT_VIEW","GROUP_BUY_EVENT_EDIT","GROUP_BUY_EVENT_CREATE","GROUP_BUY_EVENT_TEAM","GROUP_BUY_EVENT_DELETE","GROUP_BUY_EVENT_LAUNCH","GROUP_BUY_EVENT_CHECKIN","GROUP_BUY_EVENT_ORDER","TASK_CENTER_VIEW","TASK_CENTER_ADD","TASK_CENTER_EDIT","TASK_CENTER_RELEASE","TASK_CENTER_DELETE","TASK_CENTER_BACK","EVENT_REPORT_VIEW","EVENT_REPORT_EXPORT","GROUP_EVENT_REPORT_VIEW","GROUP_EVENT_REPORT_EXPORT","MEMBER_GROWTH_REPORT_VIEW","MEMBER_GROWTH_REPORT_EXPORT","MEMBER_POINTS_REPORT_VIEW","MEMBER_POINTS_REPORT_EXPORT","ATTEND_CLASS_AMOUNT_REPORT_VIEW","ATTEND_CLASS_AMOUNT_REPORT_EXPORT","ALL_MARKET_REPORT_VIEW","ALL_MARKET_REPORT_EXPORT"],"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw"}}
+2021-02-01 17:43:50,041 - tools.report.log_tool - INFO - ----请求用时: 203.012 秒数
+2021-02-01 17:43:50,042 - tools.report.log_tool - INFO - -------------------request-------------
+https://zjs.zytest.net/service/manage/api/zy/pageList
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+x-token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODczNjMwOTYwMDgzMjcyMjIifQ.GHCkx19Zhcz2BKZmNJskYCiI9bJ6SnBYZqlG2WhX4Cw
+content-type: application/json;;charset=UTF-8
+Content-Length: 89
+
+b'{"pageNum": 1, "pageSize": 10, "ppId": "", "phone": "", "nickName": "Ritter\\u8001\\u9093"}'
+2021-02-01 17:43:50,056 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Server: openresty/1.15.8.1
+Date: Mon, 01 Feb 2021 09:43:49 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Content-Encoding: gzip
+
+{"code":"200","message":"操作成功","data":{"pageNum":1,"pageSize":10,"totalPage":1,"total":1,"list":[{"id":"28","createBy":"586028","createTime":"2021-01-20 15:09:29","updateBy":"586028","updateTime":"2021-02-01 14:50:10","ppId":"586028","ppAccount":"15123274197","phoneNumber":"15123274197","name":null,"unionid":"o5gqis964glpUxs1CH9YYOfBF9kQ","openid":"o0ZQhwsjktK5QeJNGQLxSWtdQbOw","nickname":"Ritter老邓","headImgUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1SD00FjibPvnXYkVmR7fNVg2enWicnloqOlYuhhD4fR7kMYRUTRsYlptibeb9licFLW9QcX50ibqg6Kw/132","sex":"1","country":"SY","province":null,"currentCity":"广州"}]}}

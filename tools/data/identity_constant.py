@@ -1,12 +1,8 @@
-# -*- coding: utf-8 -*-
-# @Project: guoya-tools-test
-# @Author: 小吴老师
-# @Email: wuling@guoyasoft.com
-# @Weichat: 875955899
+
+
 # @Create time: 2019/11/1 7:57
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Python version 2.7.13 or 3.7.2
+
 
 
 # 十五位身份证号表达式

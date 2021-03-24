@@ -11,6 +11,8 @@ import requests
 
 import  jenkins
 
+
+
 #定义远程的jenkins master server 的url以及Port
 jenkins_server_url = 'http://127.0.0.1:8080/'
 #定义用户的userid 和 apitoken(在jenkins中生成)
